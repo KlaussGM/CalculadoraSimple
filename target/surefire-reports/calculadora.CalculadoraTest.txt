@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: calculadora.CalculadoraTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.246 s <<< FAILURE! -- in calculadora.CalculadoraTest
-calculadora.CalculadoraTest.testSumar -- Time elapsed: 0.114 s <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.229 s <<< FAILURE! -- in calculadora.CalculadoraTest
+calculadora.CalculadoraTest.testSumar -- Time elapsed: 0.100 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <5> but was: <-1>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -11,7 +11,7 @@ org.opentest4j.AssertionFailedError: expected: <5> but was: <-1>
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
 	at calculadora.CalculadoraTest.testSumar(CalculadoraTest.java:11)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 

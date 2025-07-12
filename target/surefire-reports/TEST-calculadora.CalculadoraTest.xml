@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="calculadora.CalculadoraTest" time="0.246" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="calculadora.CalculadoraTest" time="0.229" tests="5" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.specification.version" value="22"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\_UCAM\2024-25\Q-1\CALIDAD SOFT\PRACTICAS\PRACTICA 4\Nueva carpeta\CalculadoraSimple\target\test-classes;C:\_UCAM\2024-25\Q-1\CALIDAD SOFT\PRACTICAS\PRACTICA 4\Nueva carpeta\CalculadoraSimple\target\classes;C:\Users\Klaus\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Klaus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Klaus\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Klaus\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Klaus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Klaus\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Klaus\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Klaus\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
@@ -11,11 +11,11 @@
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Europe/Madrid"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="22"/>
-    <property name="user.country" value="ES"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Klaus\AppData\Local\Temp\surefire16295325003108042898\surefirebooter-20250712110826943_3.jar C:\Users\Klaus\AppData\Local\Temp\surefire16295325003108042898 2025-07-12T11-08-26_638-jvmRun1 surefire-20250712110826943_1tmp surefire_0-20250712110826943_2tmp"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Klaus\AppData\Local\Temp\surefire10837036423862607902\surefirebooter-20250712123622974_3.jar C:\Users\Klaus\AppData\Local\Temp\surefire10837036423862607902 2025-07-12T12-36-22_615-jvmRun1 surefire-20250712123622974_1tmp surefire_0-20250712123622974_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\_UCAM\2024-25\Q-1\CALIDAD SOFT\PRACTICAS\PRACTICA 4\Nueva carpeta\CalculadoraSimple\target\test-classes;C:\_UCAM\2024-25\Q-1\CALIDAD SOFT\PRACTICAS\PRACTICA 4\Nueva carpeta\CalculadoraSimple\target\classes;C:\Users\Klaus\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Klaus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Klaus\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Klaus\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Klaus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Klaus\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Klaus\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Klaus\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -23,43 +23,40 @@
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2024-07-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\_UCAM\2024-25\Q-1\CALIDAD SOFT\PRACTICAS\PRACTICA 4\Nueva carpeta\CalculadoraSimple"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Klaus\AppData\Local\Temp\surefire16295325003108042898\surefirebooter-20250712110826943_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Klaus\AppData\Local\Temp\surefire10837036423862607902\surefirebooter-20250712123622974_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
     <property name="user.name" value="Klaus"/>
-    <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-22\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\Klaus\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Klaus\AppData\Local\Temp\"/>
-    <property name="java.version" value="22.0.2"/>
+    <property name="java.version" value="17.0.12"/>
     <property name="user.dir" value="C:\_UCAM\2024-25\Q-1\CALIDAD SOFT\PRACTICAS\PRACTICA 4\Nueva carpeta\CalculadoraSimple"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\SonarScanner\sonar-scanner-7.1.0.4889-windows-x64\bin\;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.9.10\apache-maven-3.9.10\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Klaus\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Klaus\AppData\Local\Programs\Python\Python312\;C:\Users\Klaus\AppData\Local\Programs\Python\Launcher\;C:\Users\Klaus\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Cppcheck;C:\Users\Klaus\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Klaus\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Klaus\bin;C:\SonarScanner\sonar-scanner-7.1.0.4889-windows-x64\bin;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.9.10\apache-maven-3.9.10\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Klaus\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\Klaus\AppData\Local\Programs\Python\Python312;C:\Users\Klaus\AppData\Local\Programs\Python\Launcher;C:\Users\Klaus\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Cppcheck;C:\Users\Klaus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\SonarScanner\sonar-scanner-7.1.0.4889-windows-x64\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="66.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testSumar" classname="calculadora.CalculadoraTest" time="0.114">
+  <testcase name="testSumar" classname="calculadora.CalculadoraTest" time="0.1">
     <failure message="expected: &lt;5&gt; but was: &lt;-1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <5> but was: <-1>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -68,13 +65,13 @@
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
 	at calculadora.CalculadoraTest.testSumar(CalculadoraTest.java:11)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
   </testcase>
-  <testcase name="testMultiplicar" classname="calculadora.CalculadoraTest" time="0.006"/>
-  <testcase name="testDividirPorCero" classname="calculadora.CalculadoraTest" time="0.007"/>
+  <testcase name="testMultiplicar" classname="calculadora.CalculadoraTest" time="0.003"/>
+  <testcase name="testDividirPorCero" classname="calculadora.CalculadoraTest" time="0.006"/>
   <testcase name="testDividir" classname="calculadora.CalculadoraTest" time="0.002"/>
-  <testcase name="testRestar" classname="calculadora.CalculadoraTest" time="0.003"/>
+  <testcase name="testRestar" classname="calculadora.CalculadoraTest" time="0.002"/>
 </testsuite>

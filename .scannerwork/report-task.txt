@@ -2,5 +2,5 @@ projectKey=CalculadoraSimple
 serverUrl=http://localhost:9000
 serverVersion=25.7.0.110598
 dashboardUrl=http://localhost:9000/dashboard?id=CalculadoraSimple
-ceTaskId=4538e272-c778-4446-ae11-ec84e9b9f755
-ceTaskUrl=http://localhost:9000/api/ce/task?id=4538e272-c778-4446-ae11-ec84e9b9f755
+ceTaskId=84181677-8faf-49f4-b7a8-2af3c26749ad
+ceTaskUrl=http://localhost:9000/api/ce/task?id=84181677-8faf-49f4-b7a8-2af3c26749ad
